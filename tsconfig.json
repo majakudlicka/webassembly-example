@@ -1,6 +1,7 @@
 {
-	"extends": "./node_modules/assemblyscript/tsconfig.assembly.json",
+	"extends": "./node_modules/assemblyscript/tsconfig-base.json",
 	"include": [
-		"./**/*.ts"
+		"./**/*.ts",
+		"node_modules/assemblyscript/std/assembly/index.d.ts"
 	]
 }

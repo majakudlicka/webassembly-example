@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/sekforde/webassembly-example#readme",
   "dependencies": {
-    "assemblyscript": "^0.3.0"
+    "assemblyscript": "github:AssemblyScript/assemblyscript#master",
+    "fs": "0.0.1-security",
+    "path": "0.12.7",
+    "typescript": "3.3.3333"
+  },
+  "devDependencies": {
+    "@types/node": "11.10.4"
   }
 }
